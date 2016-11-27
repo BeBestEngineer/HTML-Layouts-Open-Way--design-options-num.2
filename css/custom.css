@@ -1,0 +1,235 @@
+/*
+    Created on : Nov 26, 2016
+    Author     : Spinn
+*/
+
+#id-main-menu,
+.navbar-header {
+    position: relative;
+}
+
+.main-nav-list {
+    float: none;    
+    text-align: justify;
+    width: 80%;        
+    margin: 0 auto;
+}
+
+.main-nav-list:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 0;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float: none;
+}
+
+.main-nav-item {
+    display: inline-block;
+    float: none;
+}
+
+.home-btn {
+    display: inline-block;
+    margin-top: 50px;
+    background-color: transparent;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+.home-btn:hover,
+.home-btn:focus {
+    background-color: transparent;
+}
+
+.details-full-width span {
+    margin: 0;
+    padding: 0;
+}
+
+.phone-number-icon {
+    position: relative;
+    top: 2px;
+}
+
+.title-about-programm-header {
+    font-size: 72px;
+    line-height: 80px;
+}
+
+.title-about-programm-footer {
+    
+}
+
+.testimonial-info-social-link {
+    
+}
+
+.contact-form-title{
+    margin-bottom: 30px;
+}
+
+.contact-form .error_message {
+    height: auto;
+}
+
+.home-intro {
+    padding-top: 150px;
+}
+.footer-1-light a {
+    font-size: 30px;
+}
+
+.relax-list {
+    
+}    
+
+.relax-description {
+    width: 62%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.team-member li i {
+    font-size: 30px;
+}
+
+.phone-number-link {
+    display: block;
+    font-size: 72px;
+    color: #565656;
+}
+
+#success_page h1 {
+    margin-bottom: 30px;
+}
+
+.new-offer {
+    opacity: 0.5;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .ask-a-question-title {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 767px) {   
+    #main-navbar,
+    .navbar-default .navbar-header {
+        background-color: transparent;
+        border: none;
+        box-shadow: none;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #747474;        
+    }
+    
+    #id-main-menu {
+        border: none;
+        box-shadow: none;
+        background-color: #F9F9F9;
+    }
+    /*
+    .white {
+        background-color: #fff;
+        opacity: 0;
+        transition: opacity 0.5s;
+    }
+    
+    .navbar-button:focus + .white {
+        height: 50px;
+        opacity: 1;
+    }
+    */
+    .white-background {
+        display: none;
+        background-color: #F9F9F9;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: -1;
+    }
+    
+    .navbar-button {
+        float: left;
+        margin-left: 15px;
+        border: none;
+        background-color: #F9F9F9;
+    }
+    
+    .navbar-toggle.navbar-button:focus,
+    .navbar-toggle.navbar-button:hover {
+        background-color: #F9F9F9;
+    }
+    
+    .navbar-header {
+        min-height: auto;
+    }
+    
+    .main-nav-list {
+        width: 100%;
+        float: left;    
+        text-align: left;        
+    }
+
+    .main-nav-item {
+        display: block;
+        float: left;
+    }
+    
+    .navbar-nav > li {
+        display: block;     
+    }
+        
+    .team-member {
+        float: none;
+        margin: 0 auto;
+        width: 78%;
+    }
+    
+    .home-intro-half-try {
+        text-align: center;
+    }
+    
+    .title-about-programm-header {
+        font-size: 72px;
+    }
+    
+    .testimonial-item2 {
+        padding: 0 30px;
+    }
+    
+    .contact-form-title {
+        margin-top: 50px;
+    }
+    
+    .wrapper-address {
+        text-align: center;
+    }
+}
+
+@media ( max-width: 500px ) {
+    .title-about-programm-header {
+        font-size: 48px;
+    }
+    
+    .team-member {
+        width: 78%;
+    }
+    
+    .phone-number-link {
+        font-size: 48px;
+    }
+    
+    .contact-address,
+    .contact-form-title {
+        text-align: center;
+    }
+}
