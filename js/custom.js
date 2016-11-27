@@ -9,7 +9,7 @@ $(document).ready(function(){
        $(window).scrollTo( $(this).attr('href'), 1000, {offset: {top:-70, left:0} });       
     });
     
-    $(".navbar-toggle").click( function() {       
+    $(".navbar-button").click( function() {       
         $(".white-background").toggle();
     });
     

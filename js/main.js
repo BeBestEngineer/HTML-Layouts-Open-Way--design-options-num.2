@@ -292,7 +292,7 @@ $(document).ready(function () {
 
     }
     if (self == top) { // its load with iframe or not
-        twitterFetcher.fetch(xs_tweet);
+//        twitterFetcher.fetch(xs_tweet);
     }
 
 //Surface And Canvas Settings

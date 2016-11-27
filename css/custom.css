@@ -111,6 +111,10 @@
     opacity: 0.5;
 }
 
+.contact-1-button {
+    font-size: 17px;
+}
+
 @media (min-width: 768px) and (max-width: 992px) {
     .ask-a-question-title {
         margin-top: 50px;
@@ -118,6 +122,10 @@
 }
 
 @media (max-width: 767px) {   
+    .nav-link {
+        color: #F9F9F9;
+    }
+    
     #main-navbar,
     .navbar-default .navbar-header {
         background-color: transparent;
