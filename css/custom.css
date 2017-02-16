@@ -5,6 +5,8 @@
 .loaded {
     width: 200px;
     height: 20px;
+    position: static;
+    margin: 50vh auto;
 }
 
 .home, .overlay {
